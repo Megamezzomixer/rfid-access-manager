@@ -231,6 +231,7 @@ class DatabaseManager:
             cursor.execute(query)
             table = from_db_cursor(cursor)
             print(table)
+            cursor.close()
             
         except mysql.connector.Error as err:
             print("[DBManagement] Error: " + err.msg)
