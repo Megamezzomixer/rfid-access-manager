@@ -7,7 +7,7 @@ RAMS offers a wide variety of options, such as...
 
  - Identity adding/removal
  - Per-Identity Timed Access (e.g. Access from 10:00 - 14:00)
- - Two-Stage Tag Authentication[^1]
+ - Two-Stage Tag Authentication*
  - Easy-to-edit settings using a simple config file
  - Access and Identity Management Logging
  - Optional Debug Mode
@@ -18,7 +18,7 @@ RAMS offers a wide variety of options, such as...
 	 - Lock
 - Easy-to-use Administration Panel
 
-[^1] The currently used "MIFARE Classic" Tags are considered as **not secure** and should not be used in security-dependent environments.
+(* The currently used "MIFARE Classic" Tags are considered as **not secure** and should not be used in security-dependent environments.)
 # Requirements
 
  - Raspberry Pi
